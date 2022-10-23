@@ -38,3 +38,10 @@ html {
     margin: 0;
     padding: 0;
 }
+
+.web-3 {
+    width: 26.5cm;
+    position: relative;
+    top: 2cm;
+    left: 2cm;
+}
