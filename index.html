@@ -3,58 +3,107 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | News homepage</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  Home
-  New
-  Popular
-  Trending
-  Categories
-
-  The Bright Future of Web 3.0?
-
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
-
-  Read more
-
-  New 
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="container">
+    <img src="/assets/images/logo.svg" alt="w. logo" class="logo">
+    <nav class="navbar-main">
+      <ul class="list">
+        <li class="home">
+          Home
+        </li>
+        <li class="new">
+          New
+        </li>
+        <li class="popular">
+          Popular
+        </li>
+        <li class="trending">
+          Trending
+        </li>
+        <li class="categories">
+          Categories
+        </li>
+      </ul>
+    </nav>
+    <img src="/assets/images/image-web-3-desktop.jpg" alt="image-web-3-desktop" class="web-3">
+    <h1 class="title-content">
+      The Bright Future of Web 3.0?
+    </h1>
+    <p class="description-contenet">
+      We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+      But is it really fulfilling its promise?
+    </p>
+    <button class="readMore">
+      Read More
+    </button>
+    <div class="cardNews">
+      <h1 class="card-title">
+        New
+      </h1>
+      <div class="section-one">
+        <h2 class="one-title">
+          Hydrogen VS Electric Cars
+        </h2>
+        <p class="one-description">
+          Will hydrogen-fueled cars ever catch up to EVs?
+        </p>
+      </div>
+      <div class="section-two">
+        <h2 class="two-title">
+          The downsides of AI Artistry
+        </h2>
+        <p class="two-description">
+          What are the possible adverse effects of on-demand AI image generation?
+        </p>
+      </div>
+      <div class="section-three">
+        <h2 class="three-title">
+          Is VC Funding Drying Up?
+        </h2>
+        <p class="three-description">
+          Private funding by VC frims is down 50% YOY. We take a look at what that means.
+        </p>
+      </div>
+    </div>
   </div>
 </body>
+<footer>
+  <div class="extraContent-one">
+    <h1 class="ordered-number one">
+      01
+    </h1>
+    <h2 class="extra-title-one">
+      Reviving Retro PCs
+    </h2>
+    <p class="extra-description-one">
+      What happens when old PCs are given modern upgrades?
+    </p>
+  </div>
+  <div class="extraContent-two">
+    <h1 class="ordered-number two">
+      02
+    </h1>
+    <h2 class="extra-title-two">
+      Top 10 Laptops of 2022
+    </h2>
+    <p class="extra-description-two">
+      Our best picks for various needs and budgets.
+    </p>
+  </div>
+  <div class="extraContent-three">
+    <h1 class="ordered-number three">
+      03
+    </h1>
+    <h2 class="extra-title-three">
+      The Growth of Gaming
+    </h2>
+    <p class="extra-content-three">
+      How the pandemic has sparked fresh opportunities
+    </p>
+  </div>
+</footer>
 </html>
