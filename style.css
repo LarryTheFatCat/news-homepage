@@ -2,4 +2,39 @@
 
 html {
     font-family: 'Inter', sans-serif;
+    background-color: hsl(36, 100%, 99%);
+}
+
+.navbar-main li {
+    list-style: none;
+    display: inline-block;
+    color: hsl(236, 13%, 42%);
+    font-weight: 400;
+}
+
+.list {
+    position: relative;
+    top: 0.5cm;;
+    left: 27cm;
+    margin: 0;
+    padding: 0;
+    width: 27%;
+}
+
+.list li {
+    margin: 10px; 
+}
+
+.navbar-main li:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+.logo {
+    position: relative;
+    top: 1.5cm;
+    left: 2cm;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
 }
