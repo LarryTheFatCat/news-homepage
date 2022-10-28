@@ -77,7 +77,7 @@ ul li {
     position: relative;
     width: 8.5cm;
     left: 29cm;
-    top: -12.7cm;
+    top: -12.34cm;
     display: flex;
     flex-direction: column;
     background-color: black;
@@ -117,4 +117,22 @@ ul li {
 
 .section-three {
     height: 3.5cm;
+}
+
+.title-content {
+    font-size: 70px;
+    width: 10cm;
+    position: absolute;
+    padding-left: 2cm;
+    padding-top: 1cm;
+}
+
+.div-description {
+    padding-left: 2cm;
+    position: relative;
+    top: 2.2cm;
+    left: 17cm;
+    width: 9cm;
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
 }
