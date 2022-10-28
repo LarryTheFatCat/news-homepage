@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 
-html {
+body {
     font-family: 'Inter', sans-serif;
     background-color: hsl(36, 100%, 99%);
+    overflow-x: hidden;
 }
 
 .navbar-main li {
@@ -50,7 +51,27 @@ ul li {
     display: flex;
 }
 
+.cardNews {
+    position: relative;
+    width: 8.5cm;
+    height: 10.9cm;
+    left: 29cm;
+    top: -12.7cm;
+    display: flex;
+    flex-direction: column;
+    background-color: black
+}
 
+.cardNews h1, h2 {
+    color: white;
+    padding-left: 0.5cm;
+    font-size: 19px;
+}
+.cardNews h1 {
+    font-size: 30px;
+    cursor: default;
+    color: hsl(5, 85%, 63%);
+}
 
 /* width */
 ::-webkit-scrollbar {
