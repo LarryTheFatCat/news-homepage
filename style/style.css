@@ -6,6 +6,28 @@ body {
     overflow-x: hidden;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
 .navbar-main li {
     list-style: none;
     display: inline-block;
@@ -59,7 +81,7 @@ ul li {
     top: -12.7cm;
     display: flex;
     flex-direction: column;
-    background-color: black
+    background-color: black;
 }
 
 .cardNews h1, h2 {
@@ -70,27 +92,21 @@ ul li {
 .cardNews h1 {
     font-size: 30px;
     cursor: default;
-    color: hsl(5, 85%, 63%);
+    color: hsl(35, 77%, 62%);
 }
 
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-    border-radius: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
+.cardNews p {
+    color: white;
+    font-size: 12.5px;
+    padding-left: 0.5cm;
+    width: 6.5cm;
+}
+
+.cardNews p, h1 {
+    cursor: default;
+}
+
+.cardNews h2:hover {
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
